@@ -1,0 +1,47 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Cloud Jam App
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The application lets its users to compose music with an instrument and then 
+share it with others. 
+
+Users could be part of a band. A band can consist of many users. A band has a 
+band owner. Every band is associated with a unique band identifier, using which 
+the owner can send invites to other users to join the band. 
+
+Users will be provided with capabilities to record a sound from the app which 
+they can upload to the band and let other members of the band know about thier
+music. 
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Use Cases
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1. Register user
+
+Goal in Context: A user should be able to register with the application.
+
+Scope: Every user
+
+Preconditions: N/A
+
+Postconditions:
+	Successful: User registers
+
+	Unsuccessful: User registration fails because of a pre-registration or 
+		      an invalid detail. 
+
+Primary Actor: Every user
+
+Trigger: User opens the application up
+
+SUCCESS SCENARIO
+-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-
+- User opens the application
+- The application asks for the user details required: Name, login name
+- The application saves the data
+
+
+
+
+
+
