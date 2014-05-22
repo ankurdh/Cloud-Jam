@@ -40,7 +40,30 @@ SUCCESS SCENARIO
 - The application asks for the user details required: Name, login name
 - The application saves the data
 
+2. Create Band
 
+Goal in Context: A user should be able to create a band within the application.
+
+Scope: Every user
+
+Preconditions: The user must be registered already
+
+Postconditions:
+	Successful: User creates a band and gets a unique band id.
+
+	Unsuccessful: Band creation fails because of invalid data to create a
+		      band. 
+
+Primary Actor: Every user
+
+Trigger: User chooses the application feature of creation of band
+
+SUCCESS SCENARIO
+-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-
+- User chooses to create a band
+- User is requested to provide band name and band type
+- User requests of band creation, save band
+- User gets a unique band id. 
 
 
 
