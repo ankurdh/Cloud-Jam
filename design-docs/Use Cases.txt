@@ -16,8 +16,9 @@ music.
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Use Cases
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-1. Register user
 
+1. Register user
+---------------------------------------------------------------------------------
 Goal in Context: A user should be able to register with the application.
 
 Scope: Every user
@@ -41,7 +42,7 @@ SUCCESS SCENARIO
 - The application saves the data
 
 2. Create Band
-
+---------------------------------------------------------------------------------
 Goal in Context: A user should be able to create a band within the application.
 
 Scope: Every user
